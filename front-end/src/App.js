@@ -1,11 +1,11 @@
 import React from 'react';
-import GoogleAuth from './component/GoogleAuth';
+import GoogleLogin from './component/GoogleLogIn';
 
 const App = () => {
   return (
     <div>
-      <h1>Cab Booking App</h1>
-      <GoogleAuth />
+      <h1>My Ride Sharing App</h1>
+      <GoogleLogin />
     </div>
   );
 };

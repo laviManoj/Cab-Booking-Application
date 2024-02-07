@@ -15,9 +15,8 @@ const MapComponent = ({ onSelectLocation }) => {
         defaultCenter={{ lat: 0, lng: 0 }} 
         defaultZoom={8} 
         onClick={handleMapClick} 
-      >
+      />
         
-      </GoogleMapReact>
     </div>
   );
 };
